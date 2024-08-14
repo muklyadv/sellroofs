@@ -1,0 +1,375 @@
+body {
+    font-family: "Montserrat";
+    margin: 0;
+}
+
+.page {
+    padding: 5em 10%;
+}
+
+.page h1 {
+    font-size: 2.5em;
+    color: #6aa84f;
+    text-align: center;
+}
+
+.page h2 {
+    font-size: 2em;
+    color: #333;
+}
+
+.page p {
+    font-size: 1.2em;
+}
+
+.page ul, .page ol {
+    font-size: 1.2em;
+}
+
+.page ul li, .page ol li {
+    margin-bottom: 0.5em;
+}
+
+/* Next Page Button */
+.page-button-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2em 0;
+}
+
+.page-button {
+    background-color: #6aa84f;
+    color: #ffffff;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.page-button:hover {
+    background-color: #ffffff;
+    color: #6aa84f;
+}
+
+/* Video */
+.video-container {
+    background-color: #000000;
+    padding: 3em 10%;
+    text-align: center;
+    box-sizing: border-box;
+}
+
+.video {
+    margin-top: 3em;
+}
+
+/* Index */
+.intro-background {
+    background-image: url('image/background.png');
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    box-sizing: border-box;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    text-align: center;
+    padding: 0 10%;
+    overflow: hidden;
+}
+
+.intro h1 {
+    width: 100%;
+    font-size: 5em;
+    margin: 0;
+    font-weight: 900;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.intro p {
+    font-size: 1.4em;
+    font-style: italic;
+    font-weight: normal;
+    color: #ffffff;
+    margin-top: 0.5em;
+    text-shadow: none;
+}
+
+.know-more-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1em;
+    width: 100%;
+}
+
+.know-more-button {
+    background-color: #ffffff;
+    color: #7B9F6B;
+    border-radius: 0.5em;
+    padding: 1em 1.5em;
+    font-size: 1.5em;
+    font-weight: bold;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.know-more-button:hover {
+    background-color: #7B9F6B;
+    color: #ffffff;
+}
+
+/* Social Proof */
+.client-result-card {
+    display: flex;
+    align-items: baseline;
+}
+
+.client-result-card h3 {
+    font-size: 1.7em;
+}
+
+.client-result-card h4 {
+    margin-left: 0.5em;
+    color: #a3a3a3;
+}
+
+/* Door to Door */
+.door-container {
+    margin-top: 10em;
+}
+
+.door h2 {
+    font-weight: 600;
+    font-size: 2.5em;
+    margin-bottom: 0;
+}
+
+.door {
+    display: flex;
+}
+
+.door-half {
+    flex: 1;
+    display: flex;
+    padding: 2em;
+}
+
+.door-content {
+    text-align: center;
+}
+
+.door-content ul {
+    padding: 0;
+    list-style-type: none;
+}
+
+.door-content ul li {
+    margin-bottom: 1em;
+    background-color: #EDEFEB;
+    font-size: 1.6em;
+}
+
+.door-half .img-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-container img {
+    width: max-content;
+    height: max-content;
+    margin: 10% 0 0 60%;
+}
+
+/* Brief */
+.widely-used-processes {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    align-items: center;
+    background-color: #6aa84f;
+    border-radius: 1em;
+}
+
+.widely-used-processes h1 {
+    margin: 0;
+    flex: 1;
+    padding: 2em 1rem;
+    font-size: 2.5em;
+    color: #fff;
+}
+
+.widely-used-processes h1:not(:last-child) {
+    margin-right: 1rem;
+}
+
+/* Common Sales Process Problems */
+
+.prob-container {
+    text-align: center;
+    padding: 0em 10%;
+}
+
+.prob {
+    background-color: #EDEFEB;
+    border-radius: 1em;
+    padding: 2em;
+    display: flex;
+    box-sizing: border-box;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2em;
+}
+
+.prob h1 {
+    color: #ff0000;
+    font-size: 3em;
+    font-weight: 600;
+}
+
+/* Prospect Journey */
+.prospect-journey-container {
+    padding: 5em 10%;
+}
+
+.prospect-journey {
+    padding: 2em 0;
+    color: #fff;
+    text-align: center;
+    background-color: #6aa84f;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 1em;
+}
+
+.prospect-journey ul{
+    list-style-type: none;
+    padding-left: 0;
+    font-size: 2em;
+}
+
+.prospect-journey h2{
+    color: #fff;
+}
+
+/* Responsive Styles */
+
+/* Tablets */
+@media (max-width: 1024px) {
+    .header {
+        padding: 1.5em 5%;
+    }
+
+    .nav a {
+        font-size: 1.2em;
+        margin-right: 5%;
+    }
+
+    .intro h1 {
+        font-size: 4em;
+    }
+
+    .intro p {
+        font-size: 1.2em;
+    }
+
+    .page {
+        padding: 4em 5%;
+    }
+
+    .page h1 {
+        font-size: 2em;
+    }
+
+    .page h2 {
+        font-size: 1.8em;
+    }
+
+    .page-button {
+        padding: 0.8em 1.2em;
+        font-size: 1.3em;
+    }
+}
+
+/* Mobile Devices */
+@media (max-width: 768px) {
+    .header {
+        padding: 1.5em 2%;
+        flex-direction: column;
+    }
+
+    .logo a {
+        font-size: 1.5em;
+    }
+
+    .nav {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .nav a {
+        font-size: 1.2em;
+        margin-right: 0;
+        margin-bottom: 0.5em;
+    }
+
+    .nav .button {
+        font-size: 1.2em;
+        padding: 0.5em 1em;
+    }
+
+    .intro h1 {
+        font-size: 2.5em;
+    }
+
+    .intro p {
+        font-size: 1em;
+    }
+
+    .know-more-button {
+        font-size: 1.2em;
+        padding: 0.8em 1.2em;
+    }
+
+    .page {
+        padding: 3em 2%;
+    }
+
+    .page h1 {
+        font-size: 1.8em;
+    }
+
+    .page h2 {
+        font-size: 1.5em;
+    }
+
+    .page p,
+    .page ul,
+    .page ol {
+        font-size: 1em;
+    }
+
+    .page-button {
+        padding: 0.6em 1em;
+        font-size: 1.2em;
+    }
+}
